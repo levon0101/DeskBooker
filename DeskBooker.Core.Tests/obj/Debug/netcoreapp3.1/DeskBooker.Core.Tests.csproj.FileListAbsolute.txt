@@ -97,3 +97,5 @@ C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\obj\Debug\net
 C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\obj\Debug\netcoreapp3.1\DeskBooker.Core.Tests.csprojAssemblyReference.cache
 C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\bin\Debug\netcoreapp3.1\DeskBooker.Core.dll
 C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\bin\Debug\netcoreapp3.1\DeskBooker.Core.pdb
+C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\l.mardanyan\source\repos\DeskBooker\DeskBooker.Core.Tests\bin\Debug\netcoreapp3.1\Moq.dll
