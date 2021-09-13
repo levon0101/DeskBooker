@@ -7,10 +7,10 @@ namespace DeskBooker.Core.Processor
 {
     public class DeskBookingRequestProcessor
     {
-        private readonly IDeskBookRepository _deskBookingRepository;
+        private readonly IDeskBookingRepository _deskBookingRepository;
         private readonly IDeskRepository _deskRepository;
 
-        public DeskBookingRequestProcessor(IDeskBookRepository deskBookingRepository,
+        public DeskBookingRequestProcessor(IDeskBookingRepository deskBookingRepository,
             IDeskRepository deskRepository)
         {
             _deskBookingRepository = deskBookingRepository;

@@ -14,7 +14,7 @@ namespace DeskBooker.Core
     {
         private DeskBookingRequestProcessor _processor;
         private DeskBookingRequest _request;
-        private Mock<IDeskBookRepository> _deskBookingRepository;
+        private Mock<IDeskBookingRepository> _deskBookingRepository;
         private Mock<IDeskRepository> _deskRepository;
         private List<Desk> _availableDesks;
 
@@ -33,7 +33,7 @@ namespace DeskBooker.Core
                  new Desk{Id = 7}
              };
 
-            _deskBookingRepository = new Mock<IDeskBookRepository>();
+            _deskBookingRepository = new Mock<IDeskBookingRepository>();
             _deskRepository = new Mock<IDeskRepository>();
 
             _deskRepository.Setup(x => x.GetAvailableDesks(_request.Date)).Returns(_availableDesks);
